@@ -15,7 +15,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Abc name={this.state.name} />
+        { /**
+          <Abc name={this.state.name} />
+
+         */}
         <KU name={this.state.name} />
         <p>
           Start editing to see some magic happen :)
